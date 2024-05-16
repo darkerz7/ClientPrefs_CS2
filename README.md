@@ -20,7 +20,7 @@ Allows plugin developers to save variables from players to the database
 5. Restart server
 
 ## Example:
-Add the dependency ClientPrefsApi to your project:
+### Add the dependency ClientPrefsApi to your project:
 ```
 using ClientPrefsAPI;
 
