@@ -1,5 +1,4 @@
-﻿using CounterStrikeSharp.API.Core;
-using CounterStrikeSharp.API.Core.Capabilities;
+﻿using CounterStrikeSharp.API.Core.Capabilities;
 
 namespace ClientPrefsAPI
 {

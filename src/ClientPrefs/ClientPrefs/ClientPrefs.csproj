@@ -1,25 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ClientPrefs</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
-    <PlatformTarget>x64</PlatformTarget>
-    <Platforms>AnyCPU;x64;x86</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.259" />
     <PackageReference Include="MySqlConnector" Version="2.3.7" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.117" />
-    <PackageReference Include="System.Text.Json" Version="8.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="ClientPrefsAPI">
-      <HintPath>..\..\ClientPrefsAPI\ClientPrefsAPI\bin\Release\net8.0-windows10.0.17763.0\ClientPrefsAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="CounterStrikeSharp.API">
-      <HintPath>..\..\css_api\CounterStrikeSharp.API.dll</HintPath>
+      <HintPath>API\ClientPrefsAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
 
