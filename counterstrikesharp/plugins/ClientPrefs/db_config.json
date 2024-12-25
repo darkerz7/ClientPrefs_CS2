@@ -1,10 +1,10 @@
 {
-	"_comment": "TypeDB is sqlite or mysql",
+	"_comment": "TypeDB is sqlite or mysql or postgre",
 	"TypeDB": "sqlite",
-	"SQLite_File": "database.db",
-	"Mysql_Server": "localhost",
-	"Mysql_Port": "3306",
-	"Mysql_User": "root",
-	"Mysql_Password": "mysqlpw",
-	"Mysql_NameDatabase": "clientprefs"
+	"SQLite_File": "database",
+	"SQL_Server": "localhost",
+	"SQL_Port": "3306",
+	"SQL_User": "root",
+	"SQL_Password": "dbpw",
+	"SQL_NameDatabase": "clientprefs"
 }
